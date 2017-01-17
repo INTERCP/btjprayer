@@ -1,0 +1,249 @@
+@import url("../twentyfourteen/style.css");
+
+.branding-bar {
+  padding: 5px;
+  background-color: #bb1d22;
+}
+
+.branding {
+  padding: 12px;
+  background-color: #fff;
+}
+
+.branding .logo {
+  float: left;
+}
+
+.branding .logo img {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.branding .main-nav {
+  margin-top: 30px;
+  height: 35px;
+  float: right;
+  font-weight: bold;
+}
+
+.main-nav ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  padding-left: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+  height: 35;
+}
+
+.main-nav ul::-webkit-scrollbar {
+    display: none;
+}
+
+.main-nav ul li {
+  line-height: 35px;
+  margin-right: 18px;
+  float: left;
+}
+
+/* ** footer.php ** */
+.footer {
+  background-color: #bb1d22;
+  color: #f1f1f1;
+  padding: 20px 20px 20px 20px;
+}
+
+/* ** front-page.php ** */
+/* headline */
+.headline .attachment-post-thumbnail {
+  width: 100%;
+  height: inherit;
+}
+
+.headline .carousel {
+
+}
+
+.headline .carousel-inner .item {
+  overflow:hidden;
+  height: 0;
+  padding-bottom: 48.25%;
+}
+
+.headline .carousel-caption {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  right: inherit;
+  bottom: inherit;
+  width: 100%;
+  text-align: left;
+  height: 33%;
+  background-color: rgba(39, 49, 54, 0.5);
+  padding: 20px;
+}
+
+.headline .carousel-caption .caption-category {
+  font-size: 26px;
+}
+
+.headline .carousel-caption .caption-title {
+  font-size: 18px;
+}
+
+.headline .carousel-indicators {
+  position:absolute;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style:none;
+  bottom: -40px;
+
+}
+
+.headline .carousel-indicators li.active {
+  background-color: #bb1d22;
+}
+
+.headline .carousel-indicators li {
+  border: 1px solid #bb1d22;
+}
+
+/* article-list */
+.article-list-entry {
+    position: relative;
+}
+
+.article-list .entry-thumbnail {
+  width: 50%;
+  height: inherit;
+  display: inline-block;
+}
+
+.article-list .entry-thumbnail img {
+  width: 100%;
+  height: inherit;
+}
+
+.article-list .entry-title {
+  position: absolute;
+  top:0;
+  height: 100%;
+
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 12px;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.fp-widget {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.heading-deco {
+  width: 4px;
+  height: 14px;
+  line-height: 14px;
+  margin-right: 8px;
+  background-color: #bb1d22;
+  display: inline-block;
+}
+
+.fp-widget .heading {
+  font-size: 24px;
+}
+
+.comment-list ul {
+  padding-left: 0;
+}
+
+.comment-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #999;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .branding .logo, .branding .main-nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .branding .main-nav {
+    margin-top: 12px;
+  }
+
+  .branding .main-nav li {
+    float: none;
+    display: inline-block;
+  }
+
+  .headline .carousel-caption, .article-list {
+    padding: 12px;
+  }
+
+  .headline .carousel-caption .caption-category, .fp-widget h3 {
+    font-size: 18px;
+  }
+
+  .headline .carousel-caption .caption-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .branding .logo img {
+    width: 180px;
+  }
+
+  .headline .carousel-caption, .article-list {
+    padding: 8px;
+  }
+
+  .headline .carousel-caption .caption-category, .fp-widget h3 {
+    font-size: 15px;
+  }
+
+  .headline .carousel-caption p {
+    margin-bottom: 2px;
+  }
+
+  .headline .carousel-caption .caption-title {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .branding .logo img {
+    width: 150px;
+  }
+
+  .headline .carousel-caption, .article-list {
+    padding: 4px;
+  }
+
+  .headline .carousel-caption .caption-category, .fp-widget h3 {
+    font-size: 12px;
+  }
+
+  .headline .carousel-caption p {
+    margin-bottom: 2px;
+  }
+
+  .headline .carousel-caption .caption-title {
+    font-size: 10px;
+  }
+}

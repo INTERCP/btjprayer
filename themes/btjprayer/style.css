@@ -1,0 +1,490 @@
+/*
+Theme Name:     prayformuslims2
+Theme URI:      http://www.prayformuslims.org/
+Description:    Pray For Muslims Wordpress Theme
+Author:         intercpcyber
+Author URI:     http://it-mission.com/
+Template:       twentyfourteen
+Version:        0.1.0
+*/
+
+::selection {
+  background: #EE5C5C;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #EE5C5C;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* ** header.php ** */
+#wrapper {
+  max-width:700px;
+  margin:0 auto;
+  text-align:left;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(22,22,22,0.75);
+     -moz-box-shadow: 0px 0px 5px 1px rgba(22,0,22,0.75);
+          box-shadow: 0px 0px 5px 1px rgba(22,22,22,0.75);
+}
+
+body {
+  text-align: center;
+  background: url('img/background.jpg');
+}
+
+.branding-bar {
+  padding: 5px;
+  background-color: #bb1d22;
+}
+
+.branding {
+  padding: 12px;
+  background-color: #fff;
+}
+
+.branding .logo {
+  float: left;
+}
+
+.branding .logo img {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.branding .main-nav {
+  margin-top: 30px;
+  height: 35px;
+  float: right;
+  font-weight: bold;
+}
+
+.main-nav ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  padding-left: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space:nowrap;
+  height: 35;
+}
+
+.main-nav ul::-webkit-scrollbar {
+    display: none;
+}
+
+.main-nav ul li {
+  line-height: 35px;
+  margin-right: 18px;
+  float: left;
+}
+
+/* ** footer.php ** */
+.footer {
+  background-color: #bb1d22;
+  color: #f1f1f1;
+  padding: 20px 20px 20px 20px;
+}
+
+/* ** front-page.php ** */
+/* headline */
+.headline .attachment-post-thumbnail {
+  width: 100%;
+  height: inherit;
+}
+
+.headline .carousel {
+
+}
+
+.headline .carousel-inner .item {
+  overflow:hidden;
+  height: 0;
+  padding-bottom: 48.25%;
+}
+
+.headline .carousel-caption {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  right: inherit;
+  bottom: inherit;
+  width: 100%;
+  text-align: left;
+  height: 33%;
+  background-color: rgba(39, 49, 54, 0.5);
+  padding: 20px;
+}
+
+.headline .carousel-caption .caption-category {
+  font-size: 26px;
+}
+
+.headline .carousel-caption .caption-title {
+  font-size: 18px;
+}
+
+.headline .carousel-indicators {
+  position:absolute;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style:none;
+  bottom: -40px;
+
+}
+
+.headline .carousel-indicators li.active {
+  background-color: #bb1d22;
+}
+
+.headline .carousel-indicators li {
+  border: 1px solid #bb1d22;
+}
+
+/* article-list */
+.article-list-entry {
+    position: relative;
+}
+
+.article-list .entry-thumbnail {
+  width: 50%;
+  height: inherit;
+  display: inline-block;
+}
+
+.article-list .entry-thumbnail img {
+  width: 100%;
+  height: inherit;
+}
+
+.article-list .entry-title {
+  position: absolute;
+  top:0;
+  height: 100%;
+
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 12px;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.fp-widget {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.heading-deco {
+  width: 4px;
+  height: 14px;
+  line-height: 14px;
+  margin-right: 8px;
+  background-color: #bb1d22;
+  display: inline-block;
+}
+
+.fp-widget .heading {
+  font-size: 24px;
+}
+
+
+.nations-thumbnail {
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 68%;
+}
+
+
+.comment-list ul {
+  padding-left: 0;
+}
+
+.comment-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #999;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+.wp-post-image {
+  max-width: inherit;
+}
+
+.fp-table {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.fp-table, .fp-table td {
+  border: 0 none;
+  vertical-align: bottom;
+}
+
+.gap {
+  width: inherit;
+  display: inline-block;
+  height: 18px;
+}
+
+.gap td {
+  border-right: 1px solid black;
+  line-height: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.gap td:first-child {
+  padding-left: 10px;
+}
+
+.gap td:last-child {
+  border: 0 none;
+}
+
+a:link, a:visited {
+  color: inherit;
+}
+
+.prayer-room-entry-header {
+  border-bottom: 1px solid #aaa;
+}
+
+.prayer-room-entry {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.entry-header {
+  margin-top: 0 !important;
+}
+
+.nj-widget {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.nj-widget ul li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.nj-widget ul li img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.nj-widget ul li a p {
+  text-align: center;
+}
+
+.nj-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nj-widget {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.nj-widget:last-child {
+  border-bottom: none;
+}
+
+
+.no-border, .no-border td {
+  border: 0 none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .branding .logo, .branding .main-nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .branding .main-nav {
+    margin-top: 12px;
+  }
+
+  .branding .main-nav li {
+    float: none;
+    display: inline-block;
+  }
+
+  .headline .carousel-caption, .article-list {
+    padding: 12px;
+  }
+
+  .headline .carousel-caption .caption-category, .fp-widget h3 {
+    font-size: 18px;
+  }
+
+  .headline .carousel-caption .caption-title {
+    font-size: 14px;
+  }
+
+  .gap td {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .branding .logo img {
+    width: 180px;
+  }
+
+  .headline .carousel-caption, .article-list {
+    padding: 8px;
+  }
+
+  .headline .carousel-caption .caption-category, .fp-widget h3 {
+    font-size: 15px;
+  }
+
+  .headline .carousel-caption p {
+    margin-bottom: 2px;
+  }
+
+  .headline .carousel-caption .caption-title {
+    font-size: 12px;
+  }
+
+  .main-nav ul li {
+    margin-right: 8px;
+  }
+
+  .gap {
+    font-size: 12px;
+  }
+
+  .nj-widget {
+    max-width: 100%;
+  }
+
+  .nj-widget ul li img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .nj-widget ul li {
+    width: 24%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0;
+  }
+
+  .nj-title {
+    margin-left: 8px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+  .branding .logo img {
+    width: 150px;
+  }
+
+  .headline .carousel-caption, .article-list {
+    padding: 4px;
+  }
+
+  .headline .carousel-caption .caption-category, .fp-widget h3 {
+    font-size: 12px;
+  }
+
+  .headline .carousel-caption p {
+    margin-bottom: 2px;
+  }
+
+  .headline .carousel-caption .caption-title {
+    font-size: 10px;
+  }
+
+  .gap td {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+
+.comment-list .reply {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.comment-list .fn {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.comment-body {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.main-content {
+  background-color: #fff
+}
+
+@media all and (max-width: 400px) {
+    .entry-content p {
+        font-size: 1.25em;
+    }
+    
+    .entry-content em, .entry-content ol li {
+        font-size: 1.5em;
+    }
+}
+
+.site-content {
+    margin: 0 auto;
+}
+
+.content-sidebar .widget a, .paging-navigation a { color:#988974; }
+.content-sidebar .widget a:hover, .paging-navigation a:hover, .entry-title a:hover { color:#726338; }
+
+.paging-navigation { border-top: 2px solid #EE5C5C;}
+.paging-navigation .page-numbers.current { border-top: 2px solid #EE5C5C;}
+.paging-navigation a:hover { border-top: 2px solid #EE5C5C; }
+
+.archive-header, .comments-area, .image-navigation, .page-header, .page-content,
+.post-navigation, .site-content .entry-header, .site-content .entry-content,
+.site-content .entry-summary, .site-content footer.entry-meta
+{
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+@media screen and (max-width: 783px) {
+	.archive-header, .comments-area, .image-navigation, .page-header, .page-content,
+	.post-navigation, .site-content .entry-header, .site-content .entry-content,
+	.site-content .entry-summary, .site-content footer.entry-meta
+	{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}

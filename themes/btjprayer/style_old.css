@@ -1,0 +1,192 @@
+/*
+Theme Name:     prayformuslims2
+Theme URI:      http://www.prayformuslims.org/
+Description:    Pray For Muslims Wordpress Theme
+Author:         intercpcyber
+Author URI:     http://it-mission.com/
+Template:       twentyfourteen
+Version:        0.1.0
+*/
+
+@import url("../twentyfourteen/style.css");
+
+
+body { background: url("img/bg1.jpg"); }
+
+ul { margin: 0 }
+
+/* Removes left sidebar and centers site */
+.site:before { display: none; }
+#secondary { display: none; }
+
+/* Center aligning of main content area */
+.site { margin: 0 auto; }
+.site-content { margin-left: 0; }
+
+/* Ajust padding area */
+.content-area, .content-sidebar { padding-top: 25px;}
+
+/* 컨텐츠의 가로길이 결정 */
+.site, .site-header {
+	max-width: 700px;
+}
+
+.masthead-fixed .site-main { margin-top: 58px; }
+
+
+
+/* 헤더의 설정 */
+.site-header { border-top: 10px solid #EE5C5C; background-color: #FFF; }
+#primary-navigation li:hover > a,
+#primary-navigation li.focus > a { border-bottom: 3px solid #EE7C7C; }
+#primary-navigation a { font-size: 16px; color: #282828; }
+
+#primary-navigation li a { padding:0 6px; }
+#primary-navigation li { line-height: 24px; margin-top: 32px; margin-bottom:12px; height: 30px;}
+
+.header-main { padding: 0 15px; }
+
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+.site-navigation a:active,
+.site-navigation a:hover { color: #EE7C7C; border-bottom: 3px solid #EE7C7C; }
+
+#branding { margin: 27px 0px 0px 12px;  max-width: 180px; }
+
+/* 검색 아이콘 */
+.search-toggle { background-color: #EE5C5C; display: none; visibility: hidden; }
+
+/* 기사 폭 설정 */
+.home .entry-content { max-width: inherit; }
+
+/* 푸터 설정 */
+.site-footer { background-color: #EE5C5C; }
+
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
+ */
+::selection {
+	background: #EE5C5C;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: #EE5C5C;
+	color: #fff;
+	text-shadow: none;
+}
+
+.post-thumbnail img { width: 100%; }
+
+.archive-header, .comments-area, .image-navigation, .page-header, .page-content,
+.post-navigation, .site-content .entry-header, .site-content .entry-content,
+.site-content .entry-summary, .site-content footer.entry-meta
+{
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+
+.content-area
+{
+	border-top: 1px solid #eaeade;
+}
+
+
+
+
+.navbar, .navbar-default { border-radius: 0 !important; border-color: #fff !important; background-color: #fff !important; }
+nav .container-fluid { padding-left: 0; padding-right: 0; margin:0; }
+#primary-navigation { margin: 0; float: left; width:100%; }
+.nav li a { padding: 5px !important; }
+
+.navbar-brand:hover {
+	border: 0 none !important;
+}
+
+@media screen and (min-width: 1008px) {
+	.content-sidebar { margin-left: -31%; width: 31%; }
+}
+
+.content-sidebar .widget a, .paging-navigation a { color:#988974; }
+.content-sidebar .widget a:hover, .paging-navigation a:hover, .entry-title a:hover { color:#726338; }
+
+.paging-navigation { border-top: 2px solid #EE5C5C;}
+.paging-navigation .page-numbers.current { border-top: 2px solid #EE5C5C;}
+.paging-navigation a:hover { border-top: 2px solid #EE5C5C; }
+
+.site-content .has-post-thumbnail .entry-header {
+    margin-top: 0;
+}
+
+
+@media all and (max-width: 600px) {
+	#wpadminbar { position:absolute; top: -46px; }
+}
+
+@media all and (max-width: 768px) {
+	#branding { margin-top:0 !important; }
+}
+
+@media screen and (max-width: 783px) {
+	ul { margin-left: 0; }
+	.masthead-fixed .site-main { margin-top: 10px; }
+	.primary-navigation {
+	    font-size: 16px;
+	    margin: 0 0 0 20px;
+	    padding: 0;
+	    text-transform: uppercase;
+	}
+
+	.site-title { width:100%; }
+	.archive-header, .comments-area, .image-navigation, .page-header, .page-content,
+	.post-navigation, .site-content .entry-header, .site-content .entry-content,
+	.site-content .entry-summary, .site-content footer.entry-meta
+	{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}
+
+@media screen and (max-width:701px) {
+	#branding { max-width: 180px; margin: 27px 0 0 0; display:block; }
+	.header-main { padding: 0 8px; }
+	.archive-header { padding-left: 0px !important; }
+	#primary-navigation li { line-height: 24px; margin-top: 12px; margin-bottom:12px; height: 26px;}
+}
+
+.home_widget_title {
+	margin-bottom: 15px;
+	font-weight: bolder !important;
+	font-size: 16px;
+	border-left: 2px solid #ee5c5c;
+	padding-left: 8px;
+	display: inline-block;
+	height: 13px;
+	line-height: 12px;
+}
+
+/* style for front-page */
+.home_widget_title_sub { font-size: 14px; color: #ee5c5c; font-weight: bolder; margin-left: 16px; }
+.prm-list { margin-top: 5px; }
+.prm-list li { list-style: none; }
+.prm-list a { margin-left:5px; color: #282828; }
+.prm-list a:hover { text-decoration: none; color: #787878; }
+.prm-list a:before{content:"•"; color:#ee5c5c; margin-right:5px; }
+@media screen and (max-width: 581px) { .prm-list a { margin-left: 0px; } }
+.home-widget { padding-top:12px; }
+.home-widget-gray { background-color: #fafafa; }
+.widget-entry-title a { color:#988974; font-weight:bolder; }
+
+#nation_summary_title, #prayer_request_title {
+	border-top: 1px solid #C8C8C8;
+	line-height:36px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+#nation_summary_content, #prayer_request_content {
+	display:none;
+}
